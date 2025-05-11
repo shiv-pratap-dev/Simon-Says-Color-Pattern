@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1{
+    position:relative;
+    color: rgba(144, 32, 135, 0.543);
+}
+
+
+#startButton{
+    text-align: center;
+    height: 75px;
+    width: 200px;
+    font-size:xx-large;
+    font-size: 7vh;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 650;
+    background-color:rgba(117, 21, 109, 0.543); 
+    color: white;
+    border: 2px solid black;
+
+    transition: 0.3s ease;
+
+}
+
+.center-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container{
+    height: 260px;
+    width:260px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#color1{
+    height:120px;
+    width:120px;
+    background-color:rgb(154 173 246);
+    border: solid black;
+    border-radius: 10px;
+
+}
+
+
+#color2{
+    height:120px;
+    width:120px;
+    background-color:rgb(176 212 210);
+    border: solid black;
+    border-radius: 10px;
+}
+#color3{
+    height:120px;
+    width:120px;
+    background-color:rgb(242 173 218);
+    border: solid black;
+    border-radius: 10px;
+}
+
+#color4{
+    height:120px;
+    width:120px;
+    background-color:rgb(60 64 66);
+    border: solid black;
+    border-radius: 10px;
+}
+
+.flash{
+    background-color: white !important;
+}
+
+.button {
+    transition: background-color 0.2s;
+  }
+
+.bummer{
+    background-color: red;
+}
+
+#lose{
+    display: none;
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: -300px;
+    font-size:xx-large;
+
+}
+p{
+    position: relative;
+    top: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+
+.blur{
+    filter: blur(5px);
+}
